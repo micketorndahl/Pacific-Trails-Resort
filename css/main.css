@@ -19,6 +19,13 @@ body {
   color: #212931;
 }
 
+#wrapper {
+  background-image: url(../images/Sunset.jpg);
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
 h1,
 h2,
 h3 {
