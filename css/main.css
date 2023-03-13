@@ -1,0 +1,67 @@
+@font-face {
+  font-family: "Source Sans Pro", sans-serif;
+  src: url(fonts/SourceSansPro/SourceSansPro-Bold.ttf);
+}
+@font-face {
+  font-family: Merriweather, sans-serif;
+  src: url(fonts/Merriweather/Merriweather-Regular.ttf);
+}
+
+html {
+  font-size: 105%;
+}
+
+body {
+  font-family: "Merriweather", Georgia, sans-serif;
+  font-size: 1rem;
+  font-weight: 300;
+  line-height: 1.375;
+  color: #212931;
+}
+
+h1,
+h2,
+h3 {
+  font-family: "Source Sans Pro", Helvetica, Arial, sans-serif;
+  font-weight: 900;
+  letter-spacing: 0.075em;
+}
+
+h1 {
+  font-size: 2.25rem;
+  text-transform: uppercase;
+  color: rgba(0, 0, 0, 0.7);
+}
+
+h2 {
+  font-size: 4rem;
+}
+
+h3 {
+  font-size: 1.7rem;
+}
+
+p {
+  text-align: justify;
+}
+
+main {
+  background-color: #ffffff;
+}
+
+footer {
+  background-color: #f5f5f5;
+}
+
+footer p {
+  font-size: 0.9rem;
+  text-align: center;
+}
+
+#copyright {
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 0.8rem;
+  color: #000;
+  background-color: #fff;
+}
