@@ -12,18 +12,13 @@ html {
 }
 
 body {
-  font-family: "Merriweather", Georgia, sans-serif;
-  font-size: 1rem;
-  font-weight: 300;
-  line-height: 1.375;
+  font: 300 1rem/1.375 "Merriweather", Georgia, sans-serif;
   color: #212931;
 }
 
 #wrapper {
-  background-image: url(../images/Sunset.jpg);
+  background: url(../images/Sunset.jpg) no-repeat, fixed;
   background-size: 100% auto;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
 }
 
 h1,
@@ -37,11 +32,17 @@ h3 {
 h1 {
   font-size: 2.25rem;
   text-transform: uppercase;
-  color: rgba(0, 0, 0, 0.7);
+  color: #fff;
+  border: 5px solid #fff;
+  padding: 1rem 1.75rem;
+  margin-bottom: 2rem;
 }
 
 h2 {
   font-size: 4rem;
+  line-height: 1.1;
+  text-align: center;
+  margin-bottom: 2rem;
 }
 
 h3 {
@@ -49,11 +50,23 @@ h3 {
 }
 
 p {
+  margin: 0 0 2rem 0;
   text-align: justify;
+}
+
+main,
+footer,
+#copyright {
+  margin: 0 auto;
+  max-width: 74rem;
 }
 
 main {
   background-color: #ffffff;
+}
+
+main section {
+  padding: 6rem 4rem 4rem 4rem;
 }
 
 footer {
@@ -63,6 +76,13 @@ footer {
 footer p {
   font-size: 0.9rem;
   text-align: center;
+  margin-bottom: 0.5rem;
+}
+
+footer address {
+  width: 12rem;
+  padding: 2rem 4rem;
+  font-style: normal;
 }
 
 #copyright {
@@ -71,4 +91,6 @@ footer p {
   font-size: 0.8rem;
   color: #000;
   background-color: #fff;
+  padding-top: 1rem;
+  padding-bottom: 2rem;
 }
