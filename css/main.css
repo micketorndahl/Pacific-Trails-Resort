@@ -54,6 +54,36 @@ p {
   text-align: justify;
 }
 
+/* Nav */
+
+nav {
+  max-width: 72rem;
+  background: rgba(255, 255, 255, 0.7);
+  height: 4rem;
+  line-height: 4rem;
+  margin: -4rem auto 0;
+  padding: 0 2rem 0 0;
+}
+
+nav ul {
+  text-transform: uppercase;
+  display: flex;
+}
+
+nav ul li {
+  padding: 0 2rem;
+  outline: none;
+  color: #085468;
+}
+
+nav a:hover,
+nav a:focus {
+  color: #000;
+  font-weight: bold;
+  letter-spacing: 0.15rem;
+}
+
+/* Main */
 main,
 footer,
 #copyright {
@@ -67,6 +97,12 @@ main {
 
 main section {
   padding: 6rem 4rem 4rem 4rem;
+}
+
+section ul {
+  list-style-type: circle;
+  list-style-position: inside;
+  line-height: 2;
 }
 
 footer {
@@ -93,4 +129,12 @@ footer address {
   background-color: #fff;
   padding-top: 1rem;
   padding-bottom: 2rem;
+}
+
+#copyright ul li {
+  border-left: solid 2px black;
+  display: inline-block;
+  line-height: 1;
+  margin-left: 1rem;
+  padding-left: 1rem;
 }
