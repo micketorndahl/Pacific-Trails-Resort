@@ -18,12 +18,16 @@ body {
 
 #wrapper {
   background: url(../images/Sunset.jpg) no-repeat, fixed;
-  background-size: 100% auto;
+  background-size: 150% auto;
 }
 
 h1,
 h2,
-h3 {
+h3,
+nav ul,
+#copyright,
+table th,
+.heading {
   font-family: "Source Sans Pro", Helvetica, Arial, sans-serif;
   font-weight: 900;
   letter-spacing: 0.075em;
@@ -52,6 +56,15 @@ h3 {
 p {
   margin: 0 0 2rem 0;
   text-align: justify;
+}
+
+div > header {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  height: 10rem;
+  padding-bottom: 8rem;
 }
 
 /* Nav */
@@ -99,10 +112,21 @@ main section {
   padding: 6rem 4rem 4rem 4rem;
 }
 
+section > header p {
+  font-style: italic;
+  text-align: center;
+}
+
 section ul {
   list-style-type: circle;
   list-style-position: inside;
   line-height: 2;
+}
+
+picture img,
+video {
+  display: block;
+  margin: 0 auto 2rem;
 }
 
 /* Table */
@@ -177,6 +201,8 @@ textarea:focus {
 
 footer {
   background-color: #f5f5f5;
+  display: flex;
+  justify-content: space-around;
 }
 
 footer p {
